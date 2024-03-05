@@ -1,0 +1,91 @@
+/*------------Productos------------*/
+
+
+.contenedor-productos{
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 2fr 0.5fr;
+    grid-template-rows: 50px 50px 100px 50px 50px 100px 50px 50px 100px;
+    grid-template-areas: 
+    "i1 i1 t1 p1 ."
+    "i1 i1 s1 . ."
+    "i1 i1 c1 . ."
+    "i2 i2 t2 p2 ."
+    "i2 i2 s2 . ."
+    "i2 i2 c2 . ."
+    "i3 i3 t3 p3 ."
+    "i3 i3 s3 . ."
+    "i3 i3 c3 . .";
+    gap: 10px;
+}
+
+.contenedor-productos div img{
+    width: 100%;
+    height: 100%;
+}
+
+.productoImg1{
+    grid-area: i1;
+}
+
+.productoImg2{
+    grid-area: i2;
+}
+
+.productoImg3{
+    grid-area: i3;
+}
+
+.itemsCarrito{
+    grid-area: itm;
+}
+
+.titulo1{
+    grid-area: t1;
+}
+
+.titulo2{
+    grid-area: t2;
+}
+
+.titulo3{
+    grid-area: t3;
+}
+
+.precio1{
+    grid-area: p1;
+}
+
+.precio2{
+    grid-area: p2;
+}
+
+.precio3{
+    grid-area: p3;
+}
+
+.seleccion1{
+    grid-area: s1;
+}
+
+.seleccion2{
+    grid-area: s2;
+}
+
+.seleccion3{
+    grid-area: s3;
+}
+
+.cantidad1{
+    grid-area: c1;
+}
+
+.cantidad2{
+    grid-area: c2;
+}
+
+.cantidad3{
+    grid-area: c3;
+}
